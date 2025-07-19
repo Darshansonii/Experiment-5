@@ -1,0 +1,46 @@
+//Name-Darshan Soni
+//PRN-24070123034
+//Exp5
+
+//C++ Program to display weekday using switch case statements
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    int x;
+    cout<<"Enter the number from 1-7 to display a weekday:";
+    cin>>x;
+    switch(x){
+        case 1:
+        cout<<"Today is Monday";
+        break;
+        case 2:
+        cout<<"Today is Tuesday";
+        break;
+        case 3:
+        cout<<"Today is Wednesday";
+        break;
+        case 4:
+        cout<<"Today is Thursday";
+        break;
+        case 5:
+        cout<<"Today is Friday";
+        break;
+        case 6:
+        cout<<"Today is Saturday";
+        break;
+        case 7:
+        cout<<"Today is Sunday";
+        break;
+        default:
+        cout<<"Invalid input";
+    }
+    return 0;
+}
+
+/*
+Output
+Enter the number from 1-7 to display a weekday:5
+Today is Friday
+*/
