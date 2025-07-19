@@ -1,7 +1,7 @@
 # Experiment-5
 
 1. Check Whether a Number is Even or Odd
-2. 
+ 
 This C++ program determines whether a given number is even or odd.
 
 What the Program Does:
@@ -45,7 +45,7 @@ Using conditional logic
 Basic string/character handling in C++
 
 3. Find the Largest Number Among Given Numbers
-4. 
+   
 This C++ program finds the largest number among two or three user-entered numbers.
 
 What the Program Does:
