@@ -1,106 +1,50 @@
 # Experiment-5
 
-1. Check Whether a Number is Even or Odd
- 
-This C++ program determines whether a given number is even or odd.
 
-What the Program Does:
+Aim  
+* To develop five different C++ programs that use conditional logic and switch-case statements to:
+  - Check if a number is even or odd.
+  - Determine whether a character is a vowel or consonant.
+  - Find the largest among given numbers.
+  - Perform basic arithmetic operations using a calculator (switch-case).
+  - Display the name of the weekday based on a number (switch-case).
 
-Takes an integer as input from the user
+Apparatus  
+* Computer System (Desktop or Laptop)  
+* Keyboard and Mouse  
+* Stable Power Supply  
 
-Checks the remainder when divided by 2 using the modulus operator (%)
+Software Used  
+* Visual Studio Code  
+* GCC or G++ Compiler  
+* Terminal or Command Prompt
 
-Displays whether the number is even or odd
+Theory  
+* Conditional logic in C++ involves evaluating expressions to control the program flow based on conditions.  
+* The if-else structure is used to perform different actions based on logical comparisons or checks.  
+* The switch-case structure allows selection among multiple alternatives based on the value of a single variable.  
+* The even or odd check uses the modulus operator (`%`) to test if the number has a remainder when divided by 2.  
+* Vowel/consonant classification checks if the character matches any of the five English vowels.  
+* Finding the largest number is done through chained comparisons among the inputs using if-else conditions.  
+* The calculator program uses switch-case to choose arithmetic operations such as addition, subtraction, multiplication, and division.  
+* The weekday program maps numbers (1–7) to weekdays using switch-case statements.  
+* These small programs demonstrate the fundamentals of branching, logical operations, and character/integer handling in C++.  
+* These examples enhance basic algorithmic thinking and are often used in introductory computer science courses.  
+* Logical operators (==, >, <, etc.) play a key role in determining the correct path of execution.  
+* Switch-case provides a clean alternative to multiple if-else blocks when checking for fixed values.  
+* Practicing such tasks builds confidence in using core syntax, condition handling, and output formatting in C++.
 
-Educational Purpose:
+Program Features  
+* Program 1: Inputs an integer and outputs whether it is even or odd.  
+* Program 2: Inputs a character and determines if it's a vowel or consonant.  
+* Program 3: Accepts three numbers and finds the largest among them.  
+* Program 4: Basic calculator performing +, −, ×, ÷ using switch-case.  
+* Program 5: Inputs a number (1–7) and prints the corresponding weekday using switch-case.  
+* All programs include clear input prompts and result messages.  
+* Error handling included in the calculator and weekday display for invalid options.
 
-Helps beginners understand:
-
-Basic input/output in C++
-
-Use of the modulus operator
-
-Conditional (if-else) statements
-
-2. Check Whether a Character is a Vowel or Consonant
-
-This program checks whether an entered alphabet character is a vowel or a consonant.
-
-What the Program Does:
-
-Accepts a single character input
-
-Converts it to lowercase (if necessary)
-
-Compares it against vowels (a, e, i, o, u)
-
-Displays whether it’s a vowel or consonant
-
-Educational Purpose:
-
-Understanding character input and comparison
-
-Using conditional logic
-
-Basic string/character handling in C++
-
-3. Find the Largest Number Among Given Numbers
-   
-This C++ program finds the largest number among two or three user-entered numbers.
-
-What the Program Does:
-
-Takes two or more numbers as input
-
-Uses conditional logic (if-else or nested if) to compare the values
-
-Displays the largest number
-
-Educational Purpose:
-
-Practice with multiple inputs
-
-Logical thinking using conditionals
-
-Comparing values using if, else if, and else
-
-4. Simple Calculator using Switch Case Statements
-
-This program functions as a basic calculator that performs arithmetic operations using a switch case.
-
-What the Program Does:
-
-Takes two numbers and an operator (+, -, *, /) as input
-
-Uses a switch statement to perform the corresponding operation
-
-Handles invalid operator input gracefully
-
-Educational Purpose:
-
-Understanding the use of switch-case instead of if-else
-
-Applying arithmetic operators
-
-Building menu-driven programs
-
-5. Display Weekday using Switch Case Statements
-
-This program takes a number from 1 to 7 and displays the corresponding day of the week using a switch statement.
-
-What the Program Does:
-
-Takes an integer input (1–7)
-
-Uses switch-case to match the number to a weekday
-
-Displays the correct day (e.g., 1 → Monday, 2 → Tuesday, etc.)
-
-Educational Purpose:
-
-Practice with switch-case logic
-
-Mapping inputs to meaningful outputs
-
-Simple control flow for menu-type programs
-
+Conclusion  
+* All five programs were implemented using Visual Studio Code and compiled with the GCC compiler.  
+* They effectively demonstrated the application of conditional logic and control statements in practical scenarios.  
+* The switch-case programs show the simplicity and power of fixed-value selection structures.  
+* These foundational programs help in building more complex logic and structured C++ applications.
